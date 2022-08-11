@@ -55,6 +55,8 @@ public class RegistrationRestController {
 		}
 	}
 
-	
+	pulic void m1(){
+             //business logic
+        }
 
 }
