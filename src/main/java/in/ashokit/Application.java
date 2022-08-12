@@ -7,13 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Application {
             private Static final String url="";
             private int value1;
+            private int value2;
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
 
    public void m1()
 {
-System.out.println();
+System.out.println("m2 method is added.......!");
 }
 
 }
